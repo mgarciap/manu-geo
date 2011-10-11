@@ -1,0 +1,9 @@
+.project
+.settings
+target
+.idea
+manu-geo-grailsPlugins.iml
+manu-geo.iml
+out
+.classpath
+prodDb.properties prodDb.script
