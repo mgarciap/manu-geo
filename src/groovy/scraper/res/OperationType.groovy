@@ -2,9 +2,9 @@ package scraper.res
 
 public enum OperationType {
 
-    SALE('venta'),
-    RENT('alquiler'),
-    TEMPORAL_RENT('alquiler temporal')
+    SALE('VENTA'),
+    RENT('ALQUILER'),
+    TEMPORAL_RENT('ALQUILER TEMPORAL')
 
     final String id
 

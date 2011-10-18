@@ -7,3 +7,4 @@ manu-geo.iml
 out
 .classpath
 prodDb.properties prodDb.script
+stacktrace.log

@@ -21,6 +21,8 @@ class AdLink {
         operation(inList: OperationType.list(), nullable: true)
     }
 
+    static belongsTo = [adSearchCriteria: AdSearchCriteria]
+
     public String toString ( ) {
         return "AdLink{" +
                 "site='" + site + '\'' +

@@ -51,9 +51,16 @@ grails.spring.bean.packages = []
 // request parameters to mask when logging exceptions
 grails.exceptionresolver.params.exclude = ['password']
 
+mlAPI {
+    url = 'http://internal.ml.com'
+    authUrl = 'http://auth.mercadolibre.com/authorization'
+    //maxPictures = 6
+}
+
 // set per-environment serverURL stem for creating absolute links
 environments {
     production {
+        mlAPI.url = 'http://internal.mercadolibre.com'
         grails.serverURL = "http://www.changeme.com"
     }
     development {
